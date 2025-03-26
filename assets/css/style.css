@@ -40,7 +40,7 @@ font-family: 'Poppins', sans-serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color: #676a81;
+	color: #dcdcdc;
 	background: #fff;
     max-width:1920px;
     margin:0 auto;
@@ -244,7 +244,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 30px 0 100px;}
+.about {padding: 40px 0 30px;}
 .about-content {padding-top: 20px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -720,7 +720,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #b636ff;
     border: 1px solid #b636ff;
     cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    box-shadow: 0 5px 20px rgba(238, 235, 235, 0.2);
      -webkit-transition: .5s; 
     -moz-transition:.5s; 
     -ms-transition:.5s; 
@@ -745,7 +745,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-contact-btn:hover{
     background: #9f00ff;
     border: 1px solid #9f00ff;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    box-shadow: 0 5px 20px rgba(214, 212, 212, 0.2);
 }
 
 /*--contct button--*/
@@ -801,7 +801,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .hm-footer-copyright p{
     color: #888ea5;
     text-transform: capitalize;
-    padding: 38px 0;
+    padding: 50px 0 0;
 }
 .hm-footer-copyright p a {color: #888ea5;}
 /*===============================

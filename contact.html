@@ -12,10 +12,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
         
         <!-- title of site -->
-        <title>Browny</title>
+        <title>Contact</title>
 
         <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/icon.png"/>
        
         <!--font-awesome.min.css-->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -67,20 +67,18 @@
 			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 			                    <i class="fa fa-bars"></i>
 			                </button>
-			                <a class="navbar-brand" href="index.html">browny</a>
+			                <a class="navbar-brand" href="index.html">shruti</a>
 			            </div><!--/.navbar-header-->
 			            <!-- End Header Navigation -->
 
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=""><a href="education.html">education</a></li>
-			                    <li class=""><a href="skills.html">skills</a></li>
-			                    <li class=""><a href="experience.html">experience</a></li>
-			                    <li class=""><a href="#profiles">profile</a></li>
-			                    <li class=""><a href="#portfolio">portfolio</a></li>
-			                    <li class=""><a href="#clients">clients</a></li>
-			                    <li class=""><a href="contact.html">contact</a></li>
+								<li class=""><a href="index.html">Home</a></li>
+								<li class=""><a href="about.html">About</a></li>
+								<li class=""><a href="experience.html">experience</a></li>
+								<li class=""><a href="contact.html">contact</a></li>
+								</ul><!--/.nav -->
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
 			        </div><!--/.container-->
@@ -94,6 +92,7 @@
 		<!-- top-area End -->
 <!--contact start -->
 		<section id="contact" class="contact">
+			
 			<div class="section-heading text-center">
 				<h2>contact me</h2>
 			</div>
@@ -103,37 +102,32 @@
 						<div class="col-md-offset-1 col-md-5 col-sm-6">
 							<div class="single-contact-box">
 								<div class="contact-form">
-									<form>
+									<form action="https://api.web3forms.com/submit" method="POST">										
 										<div class="row">
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+												<input type="hidden" name="access_key" value="8969b807-6b62-483a-9e7b-cb4a497d782b">
+												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+													<input type="email" class="form-control" id="email" placeholder="Email*" name="email" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
+										
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+													<textarea class="form-control" rows="8" name="message" placeholder="Message" required ></textarea>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
+										</div>/
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="single-contact-btn">
-													<a class="contact-btn" href="#" role="button">submit</a>
+													<button type="submit">Submit Form</button>
 												</div><!--/.single-single-contact-btn-->
 											</div><!--/.col-->
 										</div><!--/.row-->
